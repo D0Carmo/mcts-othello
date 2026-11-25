@@ -1,0 +1,98 @@
+[
+  {
+    "data_hora": "2026-10-01T22:54:46",
+    "python": "3.14.3",
+    "sistema": "Windows-11-10.0.26200-SP0",
+    "processador": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+    "nucleos_logicos": 16,
+    "trabalhadores": 8,
+    "versao_codigo": "73865154cb4a",
+    "argumentos": {
+      "fase": "final",
+      "experimento": "simulacoes",
+      "saida": "registros\\final",
+      "trabalhadores": 8,
+      "profundidade_minimax": 2,
+      "adversarios": "aleatorio,guloso,minimax",
+      "sem_adjacentes": false,
+      "grade": null,
+      "pares": null,
+      "pares_principal": null,
+      "teste_rapido": false
+    },
+    "partidas_planejadas": 6800,
+    "partidas_pendentes": 6800
+  },
+  {
+    "data_hora": "2026-10-01T23:51:35",
+    "python": "3.14.3",
+    "sistema": "Windows-11-10.0.26200-SP0",
+    "processador": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+    "nucleos_logicos": 16,
+    "trabalhadores": 7,
+    "versao_codigo": "73865154cb4a",
+    "argumentos": {
+      "fase": "final",
+      "experimento": "tempo",
+      "saida": "registros\\final",
+      "trabalhadores": 7,
+      "profundidade_minimax": 2,
+      "adversarios": "aleatorio,guloso,minimax",
+      "sem_adjacentes": false,
+      "grade": null,
+      "pares": null,
+      "pares_principal": 1084,
+      "teste_rapido": false
+    },
+    "partidas_planejadas": 10336,
+    "partidas_pendentes": 10336
+  },
+  {
+    "data_hora": "2026-10-02T15:08:30",
+    "python": "3.14.3",
+    "sistema": "Windows-11-10.0.26200-SP0",
+    "processador": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+    "nucleos_logicos": 16,
+    "trabalhadores": 8,
+    "versao_codigo": "0dc767c9a2ad",
+    "argumentos": {
+      "fase": "final",
+      "experimento": "simulacoes",
+      "saida": "registros\\final",
+      "trabalhadores": 8,
+      "profundidade_minimax": 2,
+      "adversarios": "aleatorio,guloso,minimax",
+      "sem_adjacentes": false,
+      "grade": null,
+      "pares": null,
+      "pares_principal": null,
+      "teste_rapido": false
+    },
+    "partidas_planejadas": 6800,
+    "partidas_pendentes": 2700
+  },
+  {
+    "data_hora": "2026-10-02T15:31:02",
+    "python": "3.14.3",
+    "sistema": "Windows-11-10.0.26200-SP0",
+    "processador": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+    "nucleos_logicos": 16,
+    "trabalhadores": 7,
+    "versao_codigo": "0dc767c9a2ad",
+    "argumentos": {
+      "fase": "final",
+      "experimento": "tempo",
+      "saida": "registros\\final",
+      "trabalhadores": 7,
+      "profundidade_minimax": 2,
+      "adversarios": "aleatorio,guloso,minimax",
+      "sem_adjacentes": false,
+      "grade": null,
+      "pares": null,
+      "pares_principal": 1084,
+      "teste_rapido": false
+    },
+    "partidas_planejadas": 10336,
+    "partidas_pendentes": 2700
+  }
+]

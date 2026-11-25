@@ -1,0 +1,98 @@
+VALIDACAO: 17136 validas, 0 invalidas
+
+TAXA DE PONTUACAO (IC 95% bootstrap por blocos, 10000 reamostragens)
+simulacoes aleatorio orc=   25       P=200 V=182 E=  3 D= 15 taxa=0.917 [0.880, 0.950] t_medio=0.0066s p95=0.0155s iter=25 forcadas=202 viol=0
+simulacoes aleatorio orc=   50       P=200 V=193 E=  0 D=  7 taxa=0.965 [0.935, 0.990] t_medio=0.0128s p95=0.0301s iter=50 forcadas=182 viol=0
+simulacoes aleatorio orc=  100       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.0254s p95=0.0592s iter=100 forcadas=173 viol=0
+simulacoes aleatorio orc=  200       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.0507s p95=0.1166s iter=200 forcadas=198 viol=0
+simulacoes aleatorio orc=  400       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.1009s p95=0.2280s iter=400 forcadas=201 viol=0
+simulacoes aleatorio orc=  800       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.2017s p95=0.4549s iter=800 forcadas=176 viol=0
+simulacoes aleatorio orc= 1600       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.4032s p95=0.8992s iter=1600 forcadas=198 viol=0
+simulacoes guloso    orc=   25       P=200 V=178 E=  2 D= 20 taxa=0.895 [0.853, 0.932] t_medio=0.0067s p95=0.0155s iter=25 forcadas=164 viol=0
+simulacoes guloso    orc=   50       P=200 V=194 E=  1 D=  5 taxa=0.973 [0.948, 0.993] t_medio=0.0132s p95=0.0301s iter=50 forcadas=175 viol=0
+simulacoes guloso    orc=  100       P=200 V=199 E=  0 D=  1 taxa=0.995 [0.985, 1.000] t_medio=0.0258s p95=0.0593s iter=100 forcadas=168 viol=0
+simulacoes guloso    orc=  200       P=200 V=199 E=  0 D=  1 taxa=0.995 [0.985, 1.000] t_medio=0.0510s p95=0.1160s iter=200 forcadas=162 viol=0
+simulacoes guloso    orc=  400       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.1014s p95=0.2266s iter=400 forcadas=177 viol=0
+simulacoes guloso    orc=  800       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.2020s p95=0.4546s iter=800 forcadas=185 viol=0
+simulacoes guloso    orc= 1600       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.4026s p95=0.8957s iter=1600 forcadas=167 viol=0
+simulacoes mcts      orc=   25 50    P=200 V= 65 E=  4 D=131 taxa=0.335 [0.270, 0.400] t_medio=0.0067s p95=0.0157s iter=25 forcadas=254 viol=0
+simulacoes mcts      orc=   50 100   P=200 V= 67 E=  8 D=125 taxa=0.355 [0.292, 0.417] t_medio=0.0130s p95=0.0305s iter=50 forcadas=276 viol=0
+simulacoes mcts      orc=  100 200   P=200 V= 60 E=  1 D=139 taxa=0.302 [0.240, 0.367] t_medio=0.0257s p95=0.0587s iter=100 forcadas=280 viol=0
+simulacoes mcts      orc=  200 400   P=200 V= 53 E=  3 D=144 taxa=0.273 [0.215, 0.335] t_medio=0.0514s p95=0.1165s iter=200 forcadas=304 viol=0
+simulacoes mcts      orc=  400 800   P=200 V= 67 E=  5 D=128 taxa=0.347 [0.282, 0.412] t_medio=0.1020s p95=0.2294s iter=400 forcadas=295 viol=0
+simulacoes mcts      orc=  800 1600  P=200 V= 66 E=  7 D=127 taxa=0.347 [0.285, 0.410] t_medio=0.2032s p95=0.4561s iter=800 forcadas=313 viol=0
+simulacoes minimax   orc=   25       P=400 V= 59 E=  7 D=334 taxa=0.156 [0.122, 0.193] t_medio=0.0076s p95=0.0162s iter=25 forcadas=2661 viol=0
+simulacoes minimax   orc=   50       P=400 V= 70 E= 10 D=320 taxa=0.188 [0.152, 0.224] t_medio=0.0148s p95=0.0313s iter=50 forcadas=2684 viol=0
+simulacoes minimax   orc=  100       P=400 V=104 E=  4 D=292 taxa=0.265 [0.224, 0.307] t_medio=0.0289s p95=0.0607s iter=100 forcadas=2503 viol=0
+simulacoes minimax   orc=  200       P=400 V=147 E=  8 D=245 taxa=0.378 [0.329, 0.426] t_medio=0.0562s p95=0.1178s iter=200 forcadas=2285 viol=0
+simulacoes minimax   orc=  400       P=400 V=183 E=  6 D=211 taxa=0.465 [0.417, 0.514] t_medio=0.1103s p95=0.2319s iter=400 forcadas=2086 viol=0
+simulacoes minimax   orc=  800       P=400 V=197 E=  8 D=195 taxa=0.502 [0.456, 0.547] t_medio=0.2205s p95=0.4626s iter=800 forcadas=2036 viol=0
+simulacoes minimax   orc= 1600       P=400 V=218 E=  9 D=173 taxa=0.556 [0.507, 0.604] t_medio=0.4393s p95=0.9143s iter=1600 forcadas=2051 viol=0
+tempo      aleatorio orc=   20       P=200 V=198 E=  1 D=  1 taxa=0.993 [0.980, 1.000] t_medio=0.0200s p95=0.0200s iter=185 forcadas=165 viol=1
+tempo      aleatorio orc=   40       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.0400s p95=0.0400s iter=374 forcadas=176 viol=1
+tempo      aleatorio orc=   80       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.0800s p95=0.0800s iter=748 forcadas=177 viol=3
+tempo      aleatorio orc=  160       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.1600s p95=0.1600s iter=1513 forcadas=195 viol=0
+tempo      aleatorio orc=  320       P=200 V=199 E=  0 D=  1 taxa=0.995 [0.985, 1.000] t_medio=0.3200s p95=0.3200s iter=2989 forcadas=211 viol=0
+tempo      aleatorio orc=  640       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.6400s p95=0.6400s iter=6103 forcadas=200 viol=0
+tempo      aleatorio orc= 1280       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=1.2800s p95=1.2800s iter=12172 forcadas=201 viol=0
+tempo      guloso    orc=   20       P=200 V=197 E=  0 D=  3 taxa=0.985 [0.965, 1.000] t_medio=0.0200s p95=0.0200s iter=182 forcadas=164 viol=4
+tempo      guloso    orc=   40       P=200 V=199 E=  0 D=  1 taxa=0.995 [0.985, 1.000] t_medio=0.0400s p95=0.0400s iter=376 forcadas=179 viol=1
+tempo      guloso    orc=   80       P=200 V=198 E=  0 D=  2 taxa=0.990 [0.975, 1.000] t_medio=0.0800s p95=0.0800s iter=765 forcadas=167 viol=0
+tempo      guloso    orc=  160       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.1600s p95=0.1600s iter=1562 forcadas=169 viol=0
+tempo      guloso    orc=  320       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.3200s p95=0.3200s iter=3128 forcadas=170 viol=0
+tempo      guloso    orc=  640       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=0.6400s p95=0.6400s iter=6342 forcadas=169 viol=0
+tempo      guloso    orc= 1280       P=200 V=200 E=  0 D=  0 taxa=1.000 [1.000, 1.000] t_medio=1.2800s p95=1.2800s iter=12542 forcadas=191 viol=0
+tempo      mcts      orc=   20 40    P=200 V= 66 E=  3 D=131 taxa=0.338 [0.270, 0.407] t_medio=0.0200s p95=0.0200s iter=173 forcadas=265 viol=2
+tempo      mcts      orc=   40 80    P=200 V= 68 E=  1 D=131 taxa=0.343 [0.278, 0.410] t_medio=0.0400s p95=0.0400s iter=345 forcadas=300 viol=1
+tempo      mcts      orc=   80 160   P=200 V= 59 E=  2 D=139 taxa=0.300 [0.237, 0.362] t_medio=0.0800s p95=0.0800s iter=708 forcadas=293 viol=0
+tempo      mcts      orc=  160 320   P=200 V= 63 E=  5 D=132 taxa=0.328 [0.260, 0.395] t_medio=0.1600s p95=0.1600s iter=1443 forcadas=290 viol=0
+tempo      mcts      orc=  320 640   P=200 V= 81 E=  5 D=114 taxa=0.417 [0.350, 0.487] t_medio=0.3200s p95=0.3200s iter=2969 forcadas=268 viol=0
+tempo      mcts      orc=  640 1280  P=200 V= 80 E=  9 D=111 taxa=0.422 [0.360, 0.485] t_medio=0.6400s p95=0.6400s iter=5913 forcadas=296 viol=0
+tempo      minimax   orc=   20       P=400 V=120 E=  7 D=273 taxa=0.309 [0.268, 0.352] t_medio=0.0200s p95=0.0200s iter=145 forcadas=2420 viol=6
+tempo      minimax   orc=   40       P=400 V=158 E=  7 D=235 taxa=0.404 [0.357, 0.450] t_medio=0.0400s p95=0.0400s iter=304 forcadas=2227 viol=2
+tempo      minimax   orc=   80       P=400 V=180 E= 12 D=208 taxa=0.465 [0.416, 0.514] t_medio=0.0800s p95=0.0800s iter=613 forcadas=2153 viol=0
+tempo      minimax   orc=  160       P=400 V=204 E=  8 D=188 taxa=0.520 [0.472, 0.569] t_medio=0.1600s p95=0.1600s iter=1315 forcadas=1985 viol=0
+tempo      minimax   orc=  320       P=400 V=236 E=  6 D=158 taxa=0.598 [0.552, 0.642] t_medio=0.3200s p95=0.3200s iter=2635 forcadas=1854 viol=0
+tempo      minimax   orc=  640       P=2168 V=1235 E= 45 D=888 taxa=0.580 [0.559, 0.602] t_medio=0.6400s p95=0.6400s iter=5207 forcadas=10487 viol=0
+tempo      minimax   orc= 1280       P=2168 V=1288 E= 44 D=836 taxa=0.604 [0.584, 0.625] t_medio=1.2800s p95=1.2800s iter=10663 forcadas=10206 viol=0
+
+GANHO POR DUPLICACAO (delta = 0.05)
+simulacoes aleatorio    25 ->    50  delta=0.048 [0.003, 0.092] eta=7.617/s blocos=100 => inconclusivo
+simulacoes aleatorio    50 ->   100  delta=0.035 [0.010, 0.065] eta=2.776/s blocos=100 => inconclusivo
+simulacoes aleatorio   100 ->   200  delta=0.000 [0.000, 0.000] eta=0.000/s blocos=100 => intervalo degenerado
+simulacoes aleatorio   200 ->   400  delta=0.000 [0.000, 0.000] eta=0.000/s blocos=100 => intervalo degenerado
+simulacoes aleatorio   400 ->   800  delta=0.000 [0.000, 0.000] eta=0.000/s blocos=100 => intervalo degenerado
+simulacoes aleatorio   800 ->  1600  delta=0.000 [0.000, 0.000] eta=0.000/s blocos=100 => intervalo degenerado
+simulacoes guloso       25 ->    50  delta=0.077 [0.030, 0.125] eta=12.029/s blocos=100 => inconclusivo
+simulacoes guloso       50 ->   100  delta=0.022 [0.000, 0.048] eta=1.785/s blocos=100 => equivalente
+simulacoes guloso      100 ->   200  delta=0.000 [-0.015, 0.015] eta=0.000/s blocos=100 => equivalente
+simulacoes guloso      200 ->   400  delta=0.005 [0.000, 0.015] eta=0.099/s blocos=100 => equivalente
+simulacoes guloso      400 ->   800  delta=0.000 [0.000, 0.000] eta=0.000/s blocos=100 => intervalo degenerado
+simulacoes guloso      800 ->  1600  delta=0.000 [0.000, 0.000] eta=0.000/s blocos=100 => intervalo degenerado
+simulacoes minimax      25 ->    50  delta=0.031 [-0.016, 0.081] eta=4.320/s blocos=200 => inconclusivo
+simulacoes minimax      50 ->   100  delta=0.077 [0.021, 0.134] eta=5.507/s blocos=200 => inconclusivo
+simulacoes minimax     100 ->   200  delta=0.113 [0.046, 0.179] eta=4.109/s blocos=200 => inconclusivo
+simulacoes minimax     200 ->   400  delta=0.087 [0.015, 0.160] eta=1.618/s blocos=200 => inconclusivo
+simulacoes minimax     400 ->   800  delta=0.037 [-0.024, 0.099] eta=0.340/s blocos=200 => inconclusivo
+simulacoes minimax     800 ->  1600  delta=0.054 [-0.010, 0.120] eta=0.246/s blocos=200 => inconclusivo
+tempo      aleatorio    20 ->    40  delta=0.007 [0.000, 0.020] eta=0.375/s blocos=100 => equivalente
+tempo      aleatorio    40 ->    80  delta=0.000 [0.000, 0.000] eta=0.000/s blocos=100 => intervalo degenerado
+tempo      aleatorio    80 ->   160  delta=0.000 [0.000, 0.000] eta=0.000/s blocos=100 => intervalo degenerado
+tempo      aleatorio   160 ->   320  delta=-0.005 [-0.015, 0.000] eta=-0.031/s blocos=100 => equivalente
+tempo      aleatorio   320 ->   640  delta=0.005 [0.000, 0.015] eta=0.016/s blocos=100 => equivalente
+tempo      aleatorio   640 ->  1280  delta=0.000 [0.000, 0.000] eta=0.000/s blocos=100 => intervalo degenerado
+tempo      guloso       20 ->    40  delta=0.010 [-0.010, 0.030] eta=0.500/s blocos=100 => equivalente
+tempo      guloso       40 ->    80  delta=-0.005 [-0.020, 0.010] eta=-0.125/s blocos=100 => equivalente
+tempo      guloso       80 ->   160  delta=0.010 [0.000, 0.025] eta=0.125/s blocos=100 => equivalente
+tempo      guloso      160 ->   320  delta=0.000 [0.000, 0.000] eta=0.000/s blocos=100 => intervalo degenerado
+tempo      guloso      320 ->   640  delta=0.000 [0.000, 0.000] eta=0.000/s blocos=100 => intervalo degenerado
+tempo      guloso      640 ->  1280  delta=0.000 [0.000, 0.000] eta=0.000/s blocos=100 => intervalo degenerado
+tempo      minimax      20 ->    40  delta=0.095 [0.030, 0.160] eta=4.750/s blocos=200 => inconclusivo
+tempo      minimax      40 ->    80  delta=0.061 [-0.006, 0.130] eta=1.531/s blocos=200 => inconclusivo
+tempo      minimax      80 ->   160  delta=0.055 [-0.013, 0.124] eta=0.687/s blocos=200 => inconclusivo
+tempo      minimax     160 ->   320  delta=0.077 [0.011, 0.142] eta=0.484/s blocos=200 => inconclusivo
+tempo      minimax     320 ->   640  delta=-0.045 [-0.114, 0.021] eta=-0.141/s blocos=200 => inconclusivo
+tempo      minimax     640 ->  1280  delta=0.024 [-0.006, 0.054] eta=0.038/s blocos=1084 => inconclusivo
+
+COMPARACAO PRINCIPAL 640 -> 1280 ms vs minimax: delta=0.024 [-0.006, 0.054] => inconclusivo
+PLANEJAMENTO (tamanho de amostra): blocos=1084 media_D=0.024 desvio_D=0.504 limite90=0.515 sigma_plan=0.515 => m*=1116 pares (2232 partidas por ponto)

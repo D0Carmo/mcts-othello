@@ -1,0 +1,10 @@
+{
+  "disponivel": true,
+  "blocos_pareados": 1084,
+  "media_D": 0.02421586715867159,
+  "desvio_D": 0.5037274115619443,
+  "limite_90_desvio": 0.515233048374187,
+  "sigma_plan": 0.515233048374187,
+  "m_estrela_pares": 1116,
+  "partidas_por_ponto": 2232
+}
