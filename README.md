@@ -1,5 +1,7 @@
 # MCTS no Othello — código do experimento
 
+**Autores:** Vinicius do Carmo, Miguel Pereira Gonçalves, Rafael da Silva Cruz.
+
 Python 3 puro (matplotlib só pros gráficos). Cada arquivo corresponde a uma parte da Metodologia do artigo:
 
 | arquivo | o que faz | artigo |
@@ -12,7 +14,7 @@ Python 3 puro (matplotlib só pros gráficos). Cada arquivo corresponde a uma pa
 | `ver_partida.py` | janela pra rever partidas gravadas ou ver o MCTS jogando ao vivo | demonstração |
 | `refazer_blocos.py` | correção usada uma vez na coleta final (ver abaixo) | — |
 
-## rodando
+## Rodando
 
 O `decisoes.csv` de cada coleta está compactado (`registros/<fase>/decisoes.zip`) por causa do limite de tamanho do GitHub. Descompacte na mesma pasta antes de rodar a análise.
 
@@ -37,7 +39,7 @@ python analise.py registros/final
 - as sementes incluem a fase, então a coleta final nunca repete partidas do piloto. Na primeira coleta final isso falhou porque rodou um executor desatualizado; o `refazer_blocos.py registros\final` tirou os blocos 1 a 50 e o executor jogou eles de novo.
 - a análise grava em `registros/<pasta>/analise/`: `resumo.txt`, `taxas.csv`, `ganhos.csv`, `planejamento.json` e os gráficos.
 
-## ver as partidas
+## Ver as partidas
 
 ```
 python ver_partida.py registros\final                                  # rever qualquer partida gravada
@@ -50,7 +52,7 @@ Botões: Início, Voltar, Avançar (uma jogada por vez), Jogar até o fim (autom
 
 Não usar o modo ao vivo enquanto roda o experimento de tempo (disputa o processador).
 
-## coisas que valem explicar
+## Coisas que valem explicar
 
 - o tabuleiro é guardado como 10x10 com uma borda: andar numa direção é só somar um deslocamento, sem testar se saiu do tabuleiro.
 - `jogada_aleatoria_rapida`: sorteia uma casa vazia e testa só ela. Continua com a mesma chance pra todas as jogadas válidas e é cerca de 2x mais rápido que listar todas.
@@ -59,7 +61,7 @@ Não usar o modo ao vivo enquanto roda o experimento de tempo (disputa o process
 - sementes: `sha256(mestra|fase|adversario|bloco|cor|papel)`. O orçamento não entra, então o mesmo bloco tem a mesma sorte em todos os orçamentos.
 - o executor desliga o coletor de lixo do Python durante a decisão e limpa depois; sem isso apareciam estouros de prazo de até ~100 ms que não tinham nada a ver com o algoritmo.
 
-## decisões tomadas antes do piloto
+## Decisões tomadas antes do piloto
 
 - **minimax com profundidade 2**: com profundidade 4 (a proposta do artigo), o MCTS perdeu todas as partidas em todos os orçamentos, até com 1.600 simulações e 1,28 s. Com tudo em zero não dá pra medir a melhora, então mudamos pra 2 e mantivemos igual em toda a coleta.
 - **tamanho da amostra**: o piloto deu 1.084 pares pra comparação principal (640 ms contra 1,28 s), que foi o que usamos na coleta final.
